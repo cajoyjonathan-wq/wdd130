@@ -9,12 +9,12 @@ nav a {
     display: block;
 }
 
-h1 {
-    color: #707275;
-}
-
 main {
     max-width: 840px;
+}
+
+h1 {
+    color: #707275;
 }
 
 aside {
