@@ -1,3 +1,18 @@
+nav {
+    background-color: #000;
+    padding: auto;
+}
+
+nav a {
+    color: #000;
+    padding: auto;
+    display: block;
+}
+
+h1 {
+    color: #707275;
+}
+
 main {
     max-width: 840px;
 }
