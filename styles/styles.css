@@ -1,11 +1,26 @@
+nav {
+    background-color: #000;
+    padding: auto;
+}
+
+nav a {
+    color: #000;
+    padding: auto;
+    display: block;
+}
+
 main {
-    max-width: 840;
+    max-width: 840px;
+}
+
+h1 {
+    color: #707275;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0 / 0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -20,9 +35,14 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    box-shadow: #000;
 }
 
-p {padding: 0;}
+p {
+    padding: 0;
+}
 
 footer {
     margin-top: 15px;
