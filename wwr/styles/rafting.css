@@ -1,6 +1,5 @@
 :root{
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -59,6 +58,7 @@ padding: 8px;
 }
 
 .hero image{
+    position: absolute;
     display: block;
     width: 200%;
     height: auto;
@@ -75,7 +75,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 470px;
     width: 118%;
@@ -105,7 +105,7 @@ h2 {
     margin-bottom: 24px; */
 }
 
-h3 {
+h2 {
     position: absolute;
     top: 925px;
     width: 103%;
