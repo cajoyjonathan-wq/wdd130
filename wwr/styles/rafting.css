@@ -1,0 +1,138 @@
+:root{
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer{
+    width: 840px;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header img {
+    margin-top: 20px;
+    width: 100px;
+    height: auto;
+}
+
+h1, h2, h3{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+margin: 16px;
+padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 50px;
+    height: auto;
+}
+
+
+.hero {
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.hero image{
+    display: block;
+    width: 200%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 122%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+article {
+    position: absolute;
+    top: 470px;
+    width: 118%;
+    padding: 10px;
+    opacity: 100%;
+    background-color: var(--accent2-color);
+    color: #000000;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    border: #000000;
+    margin: auto;
+}
+
+h2 {
+    position: absolute;
+    top: 915px;
+    width: 103%;
+    padding: 16px;
+    text-align: center;
+    opacity: 100%;
+    background-color: var(--accent1-color);
+    color: #fff;
+    /* margin-top: 24px;
+    margin-bottom: 24px; */
+}
+
+h3 {
+    position: absolute;
+    top: 925px;
+    width: 103%;
+    padding: 16px;
+    text-align: center;
+    opacity: 100%;
+    font-size: x-large;
+    background-color: var(--accent1-color);
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+p {
+    position: relative;
+    text-align: left;
+    top: 30px;
+    /* margin-top: 24px; */
+    margin-bottom: 24px;
+}
+
+/* section {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    padding: 14px;
+    text-align: center;
+} */
+
+
