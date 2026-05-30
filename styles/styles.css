@@ -12,21 +12,34 @@ nav {
 }
 
 nav a {
-    color: #eee;
-    padding: 1rem;
+    color: #fff;
+    padding: 0.5rem;
     display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main {
-    /* max-width: 840px; */
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 h1 {
-    color: var(--color1);
+    border-bottom: 2px solid steelblue;
+    padding-bottom: 8px;
 }
 
 aside {
     width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
     margin: 1rem;
     border: var(--border);
     padding: 1rem;
@@ -50,10 +63,15 @@ main img {
 
 p {
     padding: 0;
+    display: flex;
+    justify-content: space-around
 }
 
 header,
+.grid,
 footer {
     max-width: 840px;
     margin: 0 auto;
+    /* display: flex;
+    justify-content: space-around */
 }
