@@ -84,6 +84,7 @@ h1 {
     background-color: var(--accent2-color);
     padding: 14px;
     opacity: 80%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hero article img {
@@ -113,6 +114,7 @@ section h2 {
 .history-right {
     text-align: justify;
     color: black;
+    line-height: 1.5
 }
 
 .history-image {
@@ -153,6 +155,11 @@ section h2 {
     width: 250px;
     border-radius: 30px;
     object-fit: cover;
+}
+
+.figure-section figcaption {
+    font-family: var(--body-font);
+    font-weight: bold
 }
 
 footer {
