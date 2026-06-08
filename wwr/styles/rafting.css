@@ -75,6 +75,7 @@ h1 {
     opacity: 90%;
 }
 
+
 .hero article {
     position: absolute;
     bottom: 20px;
@@ -178,3 +179,159 @@ footer {
     width: 40px;
     background-color: white;
 }
+
+.contact_title {
+    position: relative;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.contact_info {
+    display: grid;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.map {
+    margin-top: 25px;
+}
+
+.form {
+    display: grid;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.middle {
+    display: flex;
+}
+
+.quiz-item {
+    display: grid;
+    padding: .75rem;
+}
+
+.box {
+    grid-template-columns: 1fr 2fr;
+}
+
+.checklist-group {
+    display: flex;
+    margin-top: 20px;
+    /* align-items: center; */
+    /* margin: auto; */
+}
+
+.group-label {
+    display: grid;
+    margin: 7px;
+    margin-left: 10px;
+}
+
+.choices {
+    display: grid;
+    margin: auto;
+}
+
+
+/* input[type="radio"] {
+    padding: 30px;
+} */
+
+.comment {
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+textarea {
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 7px;
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.subscription {
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 6px;
+}
+
+button {
+    background-color: #24376b;
+    width: 100%;
+    padding: 6px;
+    color: white;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+.employee {
+    background-color:#24376b;
+}
+
+.employee-heading{
+    list-style: none;
+    font-size: x-large;
+    font-family: var(--heading-font);
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.employee-figure {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 30px;
+}
+
+.employee-figure img {
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 3px;
+}
+
+.employee-figure figcaption {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* .quiz-item {
+    border: none;
+} */
+
+/* .h1 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: rgb(126, 19, 19);
+    background-color: green;
+    padding: 20px;
+    opacity: 90%;
+} */
