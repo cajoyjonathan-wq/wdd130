@@ -65,7 +65,7 @@ nav a {
 
 h1 {
     position: absolute;
-    top: 10px;
+    top: 0px;
     width: 100%;
     text-align: center;
     font-family: var(--heading-font);
@@ -180,20 +180,21 @@ footer {
     background-color: white;
 }
 
-.contact_title {
+/* .contact_title {
     position: relative;
-}
+} */
 
-.info {
+/* .info h1{
     display: flex;
     justify-content: center;
     list-style: none;
     font-family: var(--heading-font);
     font-weight: bold;
-    font-size: x-large;
-}
+    font-size: xx-large;
+} */
 
 .contact_info {
+    margin-top: 90px;
     display: grid;
     justify-content: center;
     list-style: none;
